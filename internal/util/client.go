@@ -3,7 +3,6 @@ package util
 import (
 	"net/http"
 	"time"
-	"fmt"
 	"github.com/indes/flowerss-bot/internal/config"
 
 	"go.uber.org/zap"
