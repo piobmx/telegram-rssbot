@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"net/url"
 	"time"
-	"fmt"
 	"github.com/indes/flowerss-bot/internal/config"
 	"github.com/indes/flowerss-bot/internal/model"
 )
