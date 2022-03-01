@@ -1,0 +1,30 @@
+bot_token: 5244960468:AAGw93suLJfSAG4jXJyw4yArOXoNfOKDo0w
+telegraph_token:
+telegraph_account:
+telegraph_author_name:
+telegraph_author_url:
+socks5:
+update_interval: 1
+user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+
+mysql:
+  host:
+  port:
+  user:
+  password:
+  database:
+
+telegram:
+  endpoint:
+    #    https://api.telegram.org/bot5244960468:AAGw93suLJfSAG4jXJyw4yArOXoNfOKDo0w/sendMessage?chat_id=@kkkxkkkakkkwkkkkkk&text=idontknowj
+
+log:
+  level: release
+  db_log: false # 打印数据库日志，false则只会打印数据库错误日志
+
+#  file: ./flowerss.log
+
+sqlite:
+  path: ./data.db
+
+allowed_users:
