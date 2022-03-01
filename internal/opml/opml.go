@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 	"time"
-
+	"fmt"
 	"github.com/indes/flowerss-bot/internal/config"
 	"github.com/indes/flowerss-bot/internal/model"
 )
@@ -93,6 +93,7 @@ func GetOPMLByURL(fileURL string) (*OPML, error) {
 	if config.Socks5 != "" {
 		proxy, _ = url.Parse("socks5://" + config.Socks5)
 	}
+	
 
 	tr := &http.Transport{
 		Proxy:           http.ProxyURL(proxy),

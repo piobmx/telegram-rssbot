@@ -124,7 +124,6 @@ func init() {
 			DB:       viper.GetString("mysql.database"),
 		}
 	}
-
 	if !EnableMysql {
 		if viper.IsSet("sqlite.path") {
 			SQLitePath = viper.GetString("sqlite.path")
