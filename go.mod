@@ -1,5 +1,6 @@
 module github.com/indes/flowerss-bot
 
+// +heroku goVersion go1.15      <--add to
 go 1.16
 
 require (
